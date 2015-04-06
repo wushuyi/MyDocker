@@ -1,6 +1,6 @@
 # vim:set ft=dockerfile:
 # set base image
-FROM centos:7
+FROM docker.io/centos:7
 # set info
 MAINTAINER wushuyi
 # set env LANG
