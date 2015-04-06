@@ -4,7 +4,8 @@ FROM centos:7
 # set info
 MAINTAINER wushuyi
 # set env LANG
-ENV LANG en_us.utf8
+ENV LC_ALL=en_US.utf8
+ENV LANG en_US.utf8
 # install postgresql server
 RUN yum install -y postgresql-server
 # swich user postgres
